@@ -8,7 +8,7 @@
   }
   .v1_5 {
     width: 405px;
-    height: 311px;
+    height: 711px;
     background: url("../images/v1_5.png");
     background-repeat: no-repeat;
     background-position: center center;
@@ -209,11 +209,10 @@
   
   .comment-box {
     max-width: 600px;
-   
     margin: 0 auto;
     padding: 20px;
     margin-right: 120px;
-    margin-top: 200px;
+    margin-top: 300px;
   }
   
   textarea {
