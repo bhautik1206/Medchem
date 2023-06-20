@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap" rel="stylesheet">
-        <link href="../Medchem/main.css" rel="stylesheet">
-        <title>Document</title>
-    </head>
-    <body>
-        <div class="v1_5">
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap" rel="stylesheet">
+  <link href="main.css" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <div class="v1_5">
+    <div class="slider-container">
+      <button class="prev-button"></button>
+      <div class="slider">
+        <img src="v1_36.png" alt="Image 1">
+        <img src="v1_42.png" alt="Image 2">
+        <img src="v1_45.png" alt="Image 3">
+      </div>
+      <button class="next-button"></button>
+      <div class="preview-slider">
+        <div class="preview-images">
+          <img src="v1_36.png" alt="Image 1">
+          <img src="v1_42.png" alt="Image 2">
+          <img src="v1_45.png" alt="Image 3">
+        </div>
+      </div>
+    </div>
+    <div class="v1_5_2">
             <span class="v1_6">
                 Dolo 650 Tablet
             </span>
@@ -36,8 +53,17 @@
                 </select>
             </span>
             <div class="v1_17"></div>
-            <span class="v1_18">qty</span>
+            <span class="v1_18">QTY</span>
             <span class="v1_19" >Add to Cart</span>
+            <div class="comment-box">
+                <form>
+                  <textarea id="comment" placeholder="Leave a comment"></textarea>
+                  <button type="submit">Post Comment</button>
+                </form>
+                <div id="comments"></div>
+              </div>
         </div>
-    </body>
+  </div>
+  <script src="script.js"></script>
+</body>
 </html>
